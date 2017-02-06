@@ -50,6 +50,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-navigation href="http://apps.mittenin.at/*" />
+    <allow-navigation href="https://apps.mittenin.at/*" />
     <allow-navigation href="http://192.168.2.101:3001/*" />
     <platform name="android">
       <access origin="*" />
