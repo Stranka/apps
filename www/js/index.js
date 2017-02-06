@@ -18,7 +18,7 @@
  */
     // Wait for Cordova to load
     //
-    window.location = "http://apps.mittenin.at";
+    window.location = "https://apps.mittenin.at";
 //    window.location = "http://192.168.2.101:3001/engine/my_mcal/cals/start";
 //    document.addEventListener("deviceready", onDeviceReady, false);
 
