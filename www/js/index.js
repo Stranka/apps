@@ -18,8 +18,8 @@
  */
     // Wait for Cordova to load
     //
-    window.location = "https://apps.mittenin.at";
-//    window.location = "http://192.168.2.101:3001/engine/my_mcal/cals/start";
+//    window.location = "https://apps.mittenin.at";
+    window.location = "http://192.168.2.101:3000";
 //    document.addEventListener("deviceready", onDeviceReady, false);
 
     // Cordova is loaded and it is now safe to make calls Cordova methods

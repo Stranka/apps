@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="at.mittenin.my_mcal" version="0.8.5"
+<widget id="at.localhost.apps" version="0.8.5"
                                     xmlns="http://www.w3.org/ns/widgets"
                                     xmlns:gap = "http://phonegap.com/ns/1.0"
                                     xmlns:cdv="http://cordova.apache.org/ns/1.0">
