@@ -37,9 +37,11 @@
     <plugin name="org.apache.cordova.dialogs" spec="0.2.10" />
     <plugin name="org.apache.cordova.network-information" spec="0.2.12" />
     <plugin name="org.apache.cordova.geolocation" spec="2.4.1" />
-    <plugin name="org.apache.cordova.Notification"/>
 
-    <uses-permission android:name="android.permission.VIBRATE" />
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.Notification" />
+    </feature>
+
     <icon src="icon.png" />
 
     <access origin="*" />
