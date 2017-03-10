@@ -19,13 +19,16 @@
     // Wait for Cordova to load
     //
 //    window.location = "https://apps.mittenin.at";
-    window.location = "http://192.168.2.101:3000";
+//    window.location = "http://192.168.2.101:3000";
 //    document.addEventListener("deviceready", onDeviceReady, false);
 
     // Cordova is loaded and it is now safe to make calls Cordova methods
     //
     function onDeviceReady() {
+      navigator.notification.beep(3);
+      navigator.notification.vibrate(2000);
         checkConnection();
+
      }
 
     function checkConnection() {
@@ -52,7 +55,7 @@
         //window.location="local/index.html";
         } else {
 //          window.open('http://www.sv-olbendorf.at/mobiles', '_self', 'location=no');
-        window.location.href="http://weather.mittenin.at/my_mcal";
+        window.location = "http://192.168.2.101:3000";
       }
     }
 
